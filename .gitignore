@@ -1,9 +1,25 @@
 
-# Playwright
+# Dependencies
 node_modules/
+
+# Playwright generated output
 /test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
-/config
+allure-results/
+reports/
+downloads/
+dist/
+tmp_cleanup/
+
+# Local environment files
+.env
+.env.*
+config/.env
+config/.env.*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
