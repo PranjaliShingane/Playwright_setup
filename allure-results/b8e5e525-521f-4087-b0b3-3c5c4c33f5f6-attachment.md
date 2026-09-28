@@ -1,0 +1,17 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: e2e\example.spec.ts >> has title
+- Location: tests\e2e\example.spec.ts:3:5
+
+# Error details
+
+```
+Error: Error reading storage state from tests/e2e/auth.json:
+ENOENT: no such file or directory, open 'C:\Playwright_Automation\tests\e2e\auth.json'
+```
